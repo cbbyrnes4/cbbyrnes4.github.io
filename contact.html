@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chaz Byrnes</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tester-style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script src="scripts/form-validation.js"></script>
+
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<div id="nav-bar">
+			
+			<div class="fixed-width">
+				
+				<div class="border" id="logo-div">
+					<img src="img/bbclogo.png" />
+				</div>
+
+				<div class="border" id="button-bar">
+					
+					<ul>
+						<li class="selected border"><a class="wide"href="index.html">About Me</a></li>
+						<li class="border"><a class="wide"href="#">Contact Me</a></li>
+						<li class="border"><a class="wide" href="tester.html">Projects</a></li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="form--login" id="login--info">
+				<form>
+					<input type="submit" value='Log in'/>
+					<input type="email" id="email" placeholder="Username" />
+					<input type="password" placeholder="Password" />
+				</form>
+			</div>
+
+		</div>
+
+		<div class="break"></div>
+
+		<div id="newsbar">
+			<div class="fixed-width">
+				<p id="newsheader">Chaz<span id="uk">Byrnes</span></p>
+			</div>
+		</div>
+
+		<div id="circle"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+
+	</div>
+
+	<div class="clear"></div>
+
+	<script type="text/javascript">
+
+		$('#circle').click(function(){
+			$(this).animate({
+				width:"300px",
+				height:"300px",
+				marginLeft:"100px",
+				marginTop:"200px"
+				},2000);
+		});
+
+		// $.ajax({
+		// 	url:"ajax.html"
+		// }).done(funtion(data){
+		// 	alert(data);
+		// });
+	
+    </script>
+
+</body>
+
+
+<footer>Copyright &copy; 2015. Chaz Byrnes. All rights reserved.
+
+</footer>
+
+</html>
