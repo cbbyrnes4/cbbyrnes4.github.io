@@ -8,11 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
     <script type="text/javascript" src="scripts/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/form-validation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
@@ -22,51 +18,33 @@
 
 	<div id="container">
 		
-		<div id="navbar navbar-default nav-bar">
+		<div id="nav-bar">
 			
-			<div class="container-fluid fixed-width">
+			<div class="fixed-width">
 				
-				<div class="navbar-header">
-
-					<div class="border" id="logo-div">
-						<a href="" class="navbar-brand"><img src="img/bbclogo.png" /></a>
-					</div>
-
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-  						
-  						<span class="sr-only">Toggle navigation</span>
-  						<span class="icon-bar"></span>
-  						<span class="icon-bar"></span>
-  						<span class="icon-bar"></span>
-  					</button>
-
+				<div class="border" id="logo-div">
+					<img src="img/bbclogo.png" />
 				</div>
-				<div class="collapse navbar-collapse">
+
+				<div class="border" id="button-bar">
 					
-					<div class="border" id="button-bar">
-					
-					<ul class="nav navbar-nav">
+					<ul>
 						<li class="selected border"><a class="wide"href="index.html">About Me</a></li>
 						<li class="border"><a class="wide"href="contact.html">Contact Me</a></li>
 						<li class="border"><a class="wide" href="tester.html">Projects</a></li>
 					</ul>
 
-					<div class="form--login" id="login--info">
-						<form>
-							<input type="submit" value='Log in'/>
-							<input type="email" id="email" placeholder="Username" />
-							<input type="password" placeholder="Password" />
-						</form>
-					</div>
-
-					</div>
-
 				</div>
-				
 
 			</div>
 
-			
+			<div class="form--login" id="login--info">
+				<form>
+					<input type="submit" value='Log in'/>
+					<input type="email" id="email" placeholder="Username" />
+					<input type="password" placeholder="Password" />
+				</form>
+			</div>
 
 		</div>
 
